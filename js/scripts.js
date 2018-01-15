@@ -15,3 +15,15 @@
             });
 
         });
+
+        $(document).ready(function() {
+            $("#login-button").click(function() {
+                $("#loginModal").modal('show');
+            });
+        });
+
+        $(document).ready(function() {
+            $("#reservation-button").click(function() {
+                $("#reservationForm").modal('show');
+            });
+        });
